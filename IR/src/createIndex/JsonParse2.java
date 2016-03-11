@@ -15,14 +15,23 @@ import org.json.simple.parser.ParseException;
 
 
 public class JsonParse2 {
-	public static HashMap<String, LinkedList<String>> companyMap = new HashMap <String,LinkedList<String>> ();
-	public static HashMap<String, LinkedList<String>> timeMap = new HashMap <String, LinkedList<String>> ();
+	//JsonParse2.timeMap
+	//	public static HashMap<String, LinkedList<String>> companyMap = new HashMap <String,LinkedList<String>> ();
+	//	public static HashMap<String, LinkedList<String>> timeMap = new HashMap <String, LinkedList<String>> ();
+	private HashMap<String, LinkedList<String>> companyMap = new HashMap <String,LinkedList<String>> ();
+	private HashMap<String, LinkedList<String>> timeMap = new HashMap <String, LinkedList<String>> ();
+	public HashMap<String, LinkedList<String>> getCompanyMap() {
+		return companyMap;
+	}
+	public HashMap<String, LinkedList<String>> getTimeMap() {
+		return timeMap;
+	}
 
 	public JsonParse2(){
 		long start, end;
 		//		final String filePath = "/Users/pingguo/Downloads/Programming/tmp/IR/meta.json";
-		//		final String filePath = "meta.json";
-		final String filePath = "dataFromDB.json";
+		final String filePath = "meta.json";
+		//		final String filePath = "dataFromDB.json";
 
 		JSONParser jsonParser = new JSONParser();
 

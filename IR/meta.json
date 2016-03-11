@@ -1,3 +1,4 @@
+[
 {
 "_id": "56db7279cd65d9841c1fded3",
 "title": "Quora电面20160119",
@@ -261,10 +262,10 @@
 },
 {
 "_id": "56db7279cd65d9841c1fdef0",
-"title": "系统设计面经",,
+"title": "系统设计面经",
 "href": "http://www.jiuzhang.com/interview/51",
 "description": "\n            说说这次面试遇到的system design题，不想全英文，就中英文混杂了。1。POI － geoh...\n            ",
-"company": "system design",,
+"company": "system design",
 "year": "2015",
 "__v": 0
 },
@@ -1312,3 +1313,4 @@
 "year": "2012",
 "__v": 0
 }
+]

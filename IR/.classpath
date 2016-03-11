@@ -5,5 +5,6 @@
 	<classpathentry kind="lib" path="/Users/pingguo/Downloads/Programming/tmp/IR/mongo-java-driver-3.2.2.jar"/>
 	<classpathentry kind="lib" path="/Users/pingguo/Downloads/Programming/tmp/IR/json-simple-1.1.1-sources.jar"/>
 	<classpathentry kind="lib" path="/Users/pingguo/Downloads/Programming/tmp/IR/json-simple-1.1.jar"/>
+	<classpathentry kind="lib" path="jsoup-1.8.3 (1).jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

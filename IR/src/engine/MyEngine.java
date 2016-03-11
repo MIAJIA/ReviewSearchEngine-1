@@ -2,6 +2,9 @@ package engine;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
+
+import createIndex.JsonParse2;
 
 
 public class MyEngine {
@@ -12,10 +15,15 @@ public class MyEngine {
 	final int isAnd = 1;
 	long time = 0;
 	int symbol = 0;
+	HashMap<String, LinkedList<String>> companyMap = null;
+	HashMap<String, LinkedList<String>> timeMap = null;
+	
 	public MyEngine() {
 	}
 	public MyEngine(String string) {
-		
+		JsonParse2 jp = new JsonParse2();
+		this.companyMap = jp.getCompanyMap();
+		this.timeMap = jp.getTimeMap();
 	}
 	public ArrayList<ResultModel> getResultSet(String key) {
 		return null;
